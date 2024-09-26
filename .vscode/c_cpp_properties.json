@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux Kernel Prop",
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/lib/gcc/arm-linux-gnueabihf/12/include",
+                "/usr/src/linux-headers-6.6.47+rpt-common-rpi/include/",
+                "/usr/src/linux-headers-6.6.47+rpt-common-rpi/arch/arm/include",
+                "/usr/src/linux-headers-6.6.47+rpt-rpi-v7/include",
+                "/usr/src/linux-headers-6.6.47+rpt-rpi-v7/arch/arm/include",
+                "/usr/src/linux-headers-6.6.47+rpt-rpi-v7/arch/arm/include/generated"
+            ],
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "mergeConfigurations": true,
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "intelliSenseMode":"gcc-arm"
+        }
+    ],
+    "version": 4
+}
