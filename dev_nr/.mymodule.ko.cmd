@@ -1,1 +1,0 @@
-savedcmd_/home/yegukwon/driver_dev/mymodule.ko := ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm/module.lds -o /home/yegukwon/driver_dev/mymodule.ko /home/yegukwon/driver_dev/mymodule.o /home/yegukwon/driver_dev/mymodule.mod.o;  true
