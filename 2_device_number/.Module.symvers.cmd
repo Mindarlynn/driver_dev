@@ -1,1 +1,0 @@
-savedcmd_/home/yegukwon/driver_dev/dev_nr/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/yegukwon/driver_dev/dev_nr/Module.symvers -T /home/yegukwon/driver_dev/dev_nr/modules.order -i Module.symvers -e 
