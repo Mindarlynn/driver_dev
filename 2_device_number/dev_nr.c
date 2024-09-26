@@ -30,6 +30,7 @@ static struct file_operations fops = {
 	.release = driver_close
 };
 
+// Major device number
 #define MYMAJOR 90
 
 /**
